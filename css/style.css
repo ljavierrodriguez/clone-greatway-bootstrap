@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Roboto";
+}
+
+.navbar-brand {
+    font-family: "Festive";
+    font-size: 2em;
+    color: rgb(15, 153, 15) !important;
+}
+
+.slide1 {
+    background-image: url("https://picsum.photos/id/237/1280/900");
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+}
+
+.slide2 {
+    background-image: url("https://picsum.photos/id/600/1280/900");
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+}
+
+.slide3 {
+    background-image: url("https://picsum.photos/id/765/1280/900");
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+}
+
+.slide1 .titulo {
+    font-family: "Roboto";
+    color: white;
+    font-size: 3em;
+}
+
+.slide1 .mensaje {
+    font-family: "Roboto";
+    color: white;
+    font-size: 1em;
+}
+
+.carousel-indicators div {
+    border: 1px green solid !important;
+    background-color: transparent !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators div.active {
+    background-color: green !important;
+}
