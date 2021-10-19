@@ -33,13 +33,13 @@ body {
     height: 900px;
 }
 
-.slide1 .titulo {
+.titulo {
     font-family: "Roboto";
     color: white;
     font-size: 3em;
 }
 
-.slide1 .mensaje {
+.mensaje {
     font-family: "Roboto";
     color: white;
     font-size: 1em;
